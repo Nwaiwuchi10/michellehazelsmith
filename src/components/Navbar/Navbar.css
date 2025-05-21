@@ -21,7 +21,7 @@ nav {
   width: 100%;
   background: var(--secondary-clr);
   padding: 2rem;
-  margin-top: 1rem;
+  margin-top: 1.01rem;
 }
 .nav_links ul {
   list-style: none;
