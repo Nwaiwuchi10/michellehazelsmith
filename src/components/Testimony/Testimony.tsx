@@ -1,5 +1,5 @@
 import React from "react";
-import { FaQuoteLeft } from "react-icons/fa";
+// import { FaQuoteLeft } from "react-icons/fa";
 import testimony from "../../assets/Images/michelle4.jpeg";
 import "./Testimony.css";
 const Testimonials: React.FC = () => {
