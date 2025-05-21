@@ -4,6 +4,7 @@
   background-position: 60% center;
   background-size: 200%;
   background-repeat: no-repeat;
+  /* height: 100vh; */
 }
 .about_content {
   color: var(--txt-clr-2);

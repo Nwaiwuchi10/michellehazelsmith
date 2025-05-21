@@ -9,20 +9,24 @@ const About: React.FC = () => {
           <img src={abtimg} alt="About" />
         </div>
         <div className="about_right">
-          <h1>about</h1>
-          <p>A Pencil, A Vision, & Endless Possibilities</p>
+          <h1>About</h1>
+          <p>Financial Consultant and Wealth Creation Strategist</p>
           <p>
-            Hey there! I’m Kristin Jones, an illustrator with a passion for
-            bringing stories to life through colors, lines, and creativity. Ever
-            since I could hold a pencil, I’ve been sketching worlds beyond
-            imagination—whether it’s whimsical characters, dreamy landscapes, or
-            intricate designs. <br />
+            Hey there! I’m Michelle Hazel smith, is a financial consultant who
+            understands that there’s more to financial planning than helping you
+            decide how to invest. Because those decisions aren’t just about
+            money, they’re about what that money can do–for you, your family and
+            your community.
             <br />
-            With a love for digital painting, I specialize in creating
-            illustrations for books, branding, social media, and personal
-            commissions. My art is inspired by nature, fantasy, everyday life,
-            emotions and I believe that every piece of artwork has a story
-            waiting to be told.
+            <br />
+            I'm a Financial Consultant and Wealth Creator living in USA, who has
+            over 15 years of professional experience, and has merits of awards
+            as well as Professional Certificate/ license in Europe ,
+            North-American and Africa.
+            <br />
+            <br />
+            Evelyn Susanne Scarlett is employed by Elite Globe INC., which
+            provides investment advisory service for clients.
           </p>
         </div>
       </div>

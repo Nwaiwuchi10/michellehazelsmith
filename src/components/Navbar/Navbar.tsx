@@ -2,12 +2,17 @@ import React from "react";
 import "./Navbar.css";
 
 const NavBar: React.FC = () => {
+  const phoneNumber = "+16402022405";
+  const WhatsappClick = () => {
+    const url = `https://wa.me/${phoneNumber}`;
+    window.open(url, "_blank");
+  };
   return (
     <nav>
       <div className="nav_logo">
         <h1>
           <a href="index.html">
-            Kristin Jones{" "}
+            Michelle Hazel smith
             <span>
               <i className="fa-solid fa-paintbrush"></i>
             </span>
@@ -60,13 +65,13 @@ const NavBar: React.FC = () => {
       </div>
 
       <div className="nav_socials">
-        <a href="#">
+        {/* <a href="#">
           <i className="fa-brands fa-linkedin"></i>
+        </a> */}
+        <a href="mailto:michellehazelsmith@gmail.com">
+          <i className="fa-solid fa-envelope"></i>
         </a>
-        <a href="#">
-          <i className="fa-brands fa-x-twitter"></i>
-        </a>
-        <a href="#">
+        <a href="#" onClick={WhatsappClick}>
           <i className="fa-brands fa-whatsapp"></i>
         </a>
       </div>

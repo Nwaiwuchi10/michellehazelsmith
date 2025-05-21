@@ -3,6 +3,11 @@ import "./Hero.css"; // Assuming you have corresponding styles
 import { FaCalendarCheck } from "react-icons/fa";
 import heroImg from "../../assets/Images/michelle5.jpeg";
 const Hero: React.FC = () => {
+  const phoneNumber = "+16402022405";
+  const WhatsappClick = () => {
+    const url = `https://wa.me/${phoneNumber}`;
+    window.open(url, "_blank");
+  };
   return (
     <div>
       <div className="home_hero">
@@ -11,15 +16,18 @@ const Hero: React.FC = () => {
             <span role="img" aria-label="wave">
               👋
             </span>
-            Hello! I’m Kristin Jones
+            Hello! I’m Michelle Hazel smith
           </h1>
-          <p>Bringing Ideas to Life Through Illustration</p>
+          <p>Crypto Investment Banker & Consultant</p>
           <p>
-            A passionate illustrator creating vibrant and meaningful visuals for
-            brands, books, and digital experiences.
+            Michelle Hazel smith is a seasoned Financial Consultant and Wealth
+            Creation Strategist based in the United States, who has over 15
+            years of professional experience to her field. She holds numerous
+            prestigious awards and possesses certified licenses and professional
+            credentials across Europe, North America, and Africa.
           </p>
           <a href="#" className="home_hero_left-CTA">
-            <span>
+            <span onClick={WhatsappClick}>
               <FaCalendarCheck />
             </span>
             Let's Talk
