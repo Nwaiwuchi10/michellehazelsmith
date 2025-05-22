@@ -11,7 +11,7 @@
 }
 .home_hero_left p:first-of-type {
   margin-top: 1rem;
-  font-family: var(--subheading-font);
+  /* font-family: var(--subheading-font); */
   font-size: 2rem;
   font-weight: 700;
   line-height: 2.5rem;
@@ -83,7 +83,7 @@
 }
 .home_services > p {
   margin-top: 1rem;
-  font-family: var(--subheading-font);
+  /* font-family: var(--subheading-font); */
   font-size: 2rem;
   font-weight: 700;
   line-height: 2.5rem;

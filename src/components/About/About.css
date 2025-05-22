@@ -37,7 +37,7 @@
 .about_right p:first-of-type {
   margin-top: 1.5rem;
   font-size: 1.7rem;
-  font-family: var(--subheading-font);
+  /* font-family: var(--subheading-font); */
   font-weight: 800;
   line-height: 2rem;
 }

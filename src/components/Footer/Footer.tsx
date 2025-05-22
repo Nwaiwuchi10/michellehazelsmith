@@ -2,6 +2,8 @@ import React from "react";
 import { FaCalendarCheck, FaClipboard } from "react-icons/fa";
 import { FaWhatsapp, FaMessage } from "react-icons/fa6";
 import { FaRegCopyright } from "react-icons/fa";
+import { toast, ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 import "./Footer.css";
 const Footer: React.FC = () => {
   const phoneNumber = "+16402022405";
@@ -9,11 +11,11 @@ const Footer: React.FC = () => {
     const url = `https://wa.me/${phoneNumber}`;
     window.open(url, "_blank");
   };
-  //   const handleCopyEmail = () => {
-  //     const email = "youremail@example.com";
-  //     navigator.clipboard.writeText(email);
-  //     alert("Email copied to clipboard!");
-  //   };
+  const handleCopyEmail = () => {
+    const email = "michellehazelsmith@gmail.com";
+    navigator.clipboard.writeText(email);
+    toast.success("Email copied to clipboard!");
+  };
 
   return (
     <footer>
@@ -32,11 +34,12 @@ const Footer: React.FC = () => {
             </span>
             let's connect
           </a>
-          <button>
+          <button onClick={handleCopyEmail} style={{ cursor: "pointer" }}>
             <span>
               <FaClipboard />
             </span>
             copy email
+            <ToastContainer />
           </button>
         </div>
       </div>

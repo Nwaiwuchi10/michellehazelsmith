@@ -19,7 +19,7 @@
 .home_work p {
   margin-top: 1.5rem;
   font-size: 2.9rem;
-  font-family: var(--subheading-font);
+  /* font-family: var(--subheading-font); */
   font-weight: 800;
   line-height: 2.5rem;
   color: var(--secondary-clr);
