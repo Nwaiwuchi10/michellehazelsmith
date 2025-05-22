@@ -25,8 +25,6 @@ const About: React.FC = () => {
             North-American and Africa.
             <br />
             <br />
-            Evelyn Susanne Scarlett is employed by Elite Globe INC., which
-            provides investment advisory service for clients.
           </p>
         </div>
       </div>

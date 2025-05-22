@@ -52,7 +52,7 @@ const Hero: React.FC = () => {
         <div className="home_services_details">
           <div>
             <div>
-              <p>Blockchain</p>
+              <p>Trading</p>
             </div>
           </div>
           <div>
@@ -62,7 +62,7 @@ const Hero: React.FC = () => {
           </div>
           <div>
             <div>
-              <p>Trading</p>
+              <p>Blockchain</p>
             </div>
           </div>
         </div>
