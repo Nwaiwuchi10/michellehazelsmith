@@ -12,8 +12,8 @@ nav {
 .nav_logo h1 a {
   text-decoration: none;
   color: var(--secondary-clr);
-  font-family: var(--logo-font);
-  text-shadow: 5px 5px 5px var(--secondary-clr-2);
+  /* font-family: var(--logo-font); */
+  /* text-shadow: 5px 5px 5px var(--secondary-clr-2); */
   font-size: 1.5rem;
 }
 .nav_links {
