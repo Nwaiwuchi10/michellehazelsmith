@@ -15,7 +15,7 @@ const Testimonials: React.FC = () => {
           {/* <span>
             <FaQuoteLeft />
           </span> */}
-          <p>
+          <p className="tst-p">
             As a Crypto Investment Banker & Consultant, my vision is to redefine
             financial empowerment through blockchain innovation, providing
             institutions, startups, and high-net-worth individuals with trusted,

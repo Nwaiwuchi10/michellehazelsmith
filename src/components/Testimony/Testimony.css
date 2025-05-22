@@ -351,3 +351,8 @@
     width: auto;
   }
 }
+@media (max-width: 480px) {
+  .tst-p {
+    padding-top: 50px;
+  }
+}

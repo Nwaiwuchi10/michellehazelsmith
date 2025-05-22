@@ -69,8 +69,11 @@
   }
 }
 @media (max-width: 480px) {
+  .home_work p {
+    font-size: 1.5rem;
+  }
   .cert-div-img {
-    margin-top: 0px;
+    margin-top: 25px;
     width: 300px;
     height: auto;
     margin-bottom: 50px;
