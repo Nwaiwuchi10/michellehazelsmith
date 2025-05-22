@@ -1,23 +1,19 @@
 // HomeWork.tsx
 import React from "react";
 import "./Work.css";
-import workImg from "../../assets/Images/trade3.jpeg";
-import workImg2 from "../../assets/Images/trade3.jpeg";
-import workImg3 from "../../assets/Images/trade3.jpeg";
-import workImg4 from "../../assets/Images/trade3.jpeg";
-import workImg5 from "../../assets/Images/trade3.jpeg";
-import workImg6 from "../../assets/Images/trade3.jpeg";
+import workImg from "../../assets/Images/Michelle Hazel Certificate-Picsart-AiImageEnhancer.png";
+
 const HomeWork: React.FC = () => {
   return (
     <div className="home_work">
-      <h1>work</h1>
-      <p>My Creative Playground</p>
+      {/* <h1>work</h1> */}
+      <p>Certification</p>
       <div className="home_work_details">
         <div className="home_work_left">
           <div>
             <img src={workImg} alt="work 01" />
           </div>
-          <div>
+          {/* <div>
             <img src={workImg2} alt="work 02" />
           </div>
         </div>
@@ -35,7 +31,7 @@ const HomeWork: React.FC = () => {
           </div>
           <div>
             <img src={workImg6} alt="work 06" />
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

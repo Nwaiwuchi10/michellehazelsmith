@@ -1,14 +1,19 @@
 import React from "react";
 import { FaCalendarCheck, FaClipboard } from "react-icons/fa";
-import { FaLinkedin, FaXTwitter, FaWhatsapp } from "react-icons/fa6";
+import { FaWhatsapp, FaMessage } from "react-icons/fa6";
 import { FaRegCopyright } from "react-icons/fa";
 import "./Footer.css";
 const Footer: React.FC = () => {
-  const handleCopyEmail = () => {
-    const email = "youremail@example.com";
-    navigator.clipboard.writeText(email);
-    alert("Email copied to clipboard!");
+  const phoneNumber = "+16402022405";
+  const WhatsappClick = () => {
+    const url = `https://wa.me/${phoneNumber}`;
+    window.open(url, "_blank");
   };
+  //   const handleCopyEmail = () => {
+  //     const email = "youremail@example.com";
+  //     navigator.clipboard.writeText(email);
+  //     alert("Email copied to clipboard!");
+  //   };
 
   return (
     <footer>
@@ -22,12 +27,12 @@ const Footer: React.FC = () => {
         </div>
         <div className="footer_top-CTA">
           <a href="#contact">
-            <span>
+            <span onClick={WhatsappClick}>
               <FaCalendarCheck />
             </span>
             let's connect
           </a>
-          <button onClick={handleCopyEmail}>
+          <button>
             <span>
               <FaClipboard />
             </span>
@@ -53,24 +58,25 @@ const Footer: React.FC = () => {
         </ul>
 
         <div className="footer_middle_socials">
-          <a
+          {/* <a
             href="https://linkedin.com"
             target="_blank"
             rel="noopener noreferrer"
           >
             <FaLinkedin />
-          </a>
+          </a> */}
           <a
-            href="https://twitter.com"
+            href="mailto:michellehazelsmith@gmail.com"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaXTwitter />
+            <FaMessage />
           </a>
           <a
-            href="https://wa.me/yourwhatsappnumber"
+            // href="https://wa.me/yourwhatsappnumber"
             target="_blank"
             rel="noopener noreferrer"
+            onClick={WhatsappClick}
           >
             <FaWhatsapp />
           </a>
@@ -82,7 +88,7 @@ const Footer: React.FC = () => {
         <span>
           <FaRegCopyright />
         </span>{" "}
-        2025 xanny_sample_portfolio
+        2025
       </div>
     </footer>
   );

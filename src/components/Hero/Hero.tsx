@@ -2,6 +2,7 @@ import React from "react";
 import "./Hero.css"; // Assuming you have corresponding styles
 import { FaCalendarCheck } from "react-icons/fa";
 import heroImg from "../../assets/Images/michelle5.jpeg";
+import whatsapp from "../../assets/Images/whatsapp.png";
 const Hero: React.FC = () => {
   const phoneNumber = "+16402022405";
   const WhatsappClick = () => {
@@ -21,7 +22,7 @@ const Hero: React.FC = () => {
           <p>Crypto Investment Banker & Consultant</p>
           <p>
             Michelle Hazel smith is a seasoned Financial Consultant and Wealth
-            Creation Strategist based in the United States, who has over 15
+            Creation Strategist based in the United States, who has over 20
             years of professional experience to her field. She holds numerous
             prestigious awards and possesses certified licenses and professional
             credentials across Europe, North America, and Africa.
@@ -38,6 +39,11 @@ const Hero: React.FC = () => {
             <img src={heroImg} alt="Illustration of Kristin Jones" />
           </div>
         </div>
+        <div className="whatsapp-img-div">
+          <div className="whatsapp-img-size" onClick={WhatsappClick}>
+            <img src={whatsapp} alt="whatsapp" className="whatsapp-img" />
+          </div>{" "}
+        </div>
       </div>
 
       <div className="home_services">
@@ -46,17 +52,17 @@ const Hero: React.FC = () => {
         <div className="home_services_details">
           <div>
             <div>
-              <p>Digital Illustration</p>
+              <p>Blockchain</p>
             </div>
           </div>
           <div>
             <div>
-              <p>Character Design</p>
+              <p>Wallet</p>
             </div>
           </div>
           <div>
             <div>
-              <p>Editorial Illustration</p>
+              <p>Trading</p>
             </div>
           </div>
         </div>

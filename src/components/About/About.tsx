@@ -9,9 +9,9 @@ const About: React.FC = () => {
           <img src={abtimg} alt="About" />
         </div>
         <div className="about_right">
-          <h1>About</h1>
+          <h1 style={{ marginTop: "60px" }}>About</h1>
           <p>Financial Consultant and Wealth Creation Strategist</p>
-          <p>
+          <p style={{ marginBottom: "120px" }}>
             Hey there! I’m Michelle Hazel smith, is a financial consultant who
             understands that there’s more to financial planning than helping you
             decide how to invest. Because those decisions aren’t just about
@@ -20,7 +20,7 @@ const About: React.FC = () => {
             <br />
             <br />
             I'm a Financial Consultant and Wealth Creator living in USA, who has
-            over 15 years of professional experience, and has merits of awards
+            over 20 years of professional experience, and has merits of awards
             as well as Professional Certificate/ license in Europe ,
             North-American and Africa.
             <br />
